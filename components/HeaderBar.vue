@@ -6,9 +6,9 @@
 					<div v-html="$feathericons['arrow-left'].toSvg()"></div>
 				</div>
 			</NuxtLink>
-			<div class="cursor-pointer rounded-full bg-white p-2 transform hover:scale-105" @click="openSettings">
+			<!-- <div class="cursor-pointer rounded-full bg-white p-2 transform hover:scale-105" @click="openSettings">
 				<div v-html="$feathericons['settings'].toSvg()"></div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </template>

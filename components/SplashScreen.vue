@@ -4,14 +4,12 @@
 		<div class="flex flex-col items-center justify-between gap-4">
 			<NuxtLink to="/game">
 				<button class="bg-red-500 hover:bg-red-400 text-white font-bold py-2 px-4 border-b-4 border-red-700 hover:border-red-500 rounded">
-					Jouer en local
+					Partie rapide
 				</button>
 			</NuxtLink>
-			<NuxtLink to="/online">
-				<button class="bg-transparent hover:bg-white hover:text-red-700 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full">
-					Jouer en ligne
-				</button>
-			</NuxtLink>
+			<button class="bg-transparent disabled hover:bg-white hover:text-red-700 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-transparent rounded-full">
+				En ligne <span class="font-italic text-xs">(Bientôt disponible)</span>
+			</button>
 		</div>
 	</div>
 </template>
